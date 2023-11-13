@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Lea",
-    "slug": "Lea",
+    "slug": "project-lea",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.sergeroland.projectlea"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2191c47e-ad66-45ff-971c-81859867ab61"
+      }
+    },
+    "owner": "serge-roland"
   }
 }
